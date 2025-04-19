@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scalable="no", maximum-scale="1.0", minimum-scale="1.0">
 
     <title>Distribuidora Sur - Carnicería</title>
+    <link href=https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap rel="stylesheet">
+    <!-- Me enlazo a css -->
+    <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 
 <body>
@@ -25,13 +28,13 @@
 
 
 <!-- Seccion Main -->
-<section>
+<section class="main">
 
     <!-- Seccion Acerca de -->
      <section class="acerca-de" id="acerca-de">
         <div class="contenedor">
             <div class="foto">
-                <img src="img/LogoCarnicería.jpeg" alt="logo de carniceria">
+                <img src="img/Logopq.jpeg" alt="logo de carniceria" width="200" height="400">
             </div>
             <article>
                 <h3> Acerca de </h3>
@@ -44,124 +47,192 @@
 
      <!-- Categoría de Productos -->
      <!-- CARNES -->
-      <section>
-        <div class="categoria">
-            <h2> CARNE DE RES </h2>
-            <img src="img/CarneDeRes.jpg" alt="Carne de Res" class="categoria-img">
+      <section class="menu">
+        <div class="contenedor">
+            <h2 id="seccion"> PRODUCTOS EN VENTA </h2>
+            <div class="contenedor-productos">
+                <div class="contenedor-productos2">
+                    <article>
+                        <p class="categoria"> CARNES </p>
+                        <img src="img/CarneDeRes.jpg" alt="">
+                        <div class="producto">
+                            <p class="nombre"> <strong >Carne Fileteada: </strong></p> 
+                            <p class="precio">$4.00</p> 
+                        </div>
+                        <div class="producto">
+                             <p class="nombre"><strong> Pulpa de carne: </strong></p>
+                            <p class="precio">lb $3.50</p>
+                        </div>
+                        <div class="producto"> 
+                            <p class="nombre"><strong> Chuleta de res: </strong></p>
+                            <p class="precio">lb $2.05</p>
+                        </div>
+                        <div class="producto"> 
+                            <p class="nombre"><strong> Carne molida: </strong></p>
+                            <p class="precio"> lb $2.25</p>
+                        </div>
+                        <div class="producto"> 
+                            <p class="nombre"><strong> Hueso de res: </strong></p>
+                            <p class="precio"> lb $1.20</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="categoria"> Pollo </p>
+                        <img src="img/Pollo.jpg" alt="">
+                        <div class="producto">
+                            <p class="nombre"><strong> Pollo entero: </strong></p>
+                           <p class="precio"> lb $1.20</p>
+                       </div>
+                       <div class="producto">
+                            <p class="nombre"><strong> Filete de pollo: </strong></p>
+                           <p class="precio"> lb $2.25</p>
+                       </div>
+                       <div class="producto"> 
+                           <p class="nombre"> <strong> Alitas: </strong></p>
+                           <P class="precio"> lb $1.70</P>
+                       </div>
+                       <div class="producto"> 
+                           <p class="nombre"> <strong> Pescuezo </strong></p>
+                           <P class="precio"> lb $0.80</P>
+                       </div>
+                       <div class="producto"> 
+                           <p class="nombre"> <strong> Piernitas </strong></p>
+                           <P class="precio"> lb $1.90</P>
+                       </div>
+                    </article>
+
+                    <article>
+                        <p class="categoria"> Cerdo </p>
+                        <img src="img/Cerdo.jpg" alt="">
+                        <div class="producto">
+                            <p class="nombre"> <strong> Costilla de cerdo </strong> </p>
+                            <p class="precio"> lb $2.50 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Chuleta de lomo </strong> </p>
+                            <p class="precio"> lb $2.75 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Chuleta de pierna </strong> </p>
+                            <p class="precio"> lb $2.50 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Cuero </strong> </p>
+                            <p class="precio"> lb $1.60 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Pierna entera </strong> </p>
+                            <p class="precio"> lb $2.10 </p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="categoria"> Embutidos </p>
+                        <img src="img/embutidos.jpeg" alt="">
+                        <div class="producto">
+                            <p class="nombre"> <strong> Parrilleros </strong> </p>
+                            <p class="precio"> paquete $5 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Salchicha </strong> </p>
+                            <p class="precio"> lb $1.50 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Longaniza </strong> </p>
+                            <p class="precio"> lb $2.50 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Queso manaba </strong> </p>
+                            <p class="precio"> lb $2.70 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Jamón </strong> </p>
+                            <p class="precio"> lb $1.80 </p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="categoria"> Condimentos </p>
+                        <img src="img/condimentos.jpg" alt="">
+                        <div class="producto">
+                            <p class="nombre"> <strong> Ajo en polvo </strong> </p>
+                            <p class="precio"> paquete $0.35 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Sazonador </strong> </p>
+                            <p class="precio"> botella $1.25 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Azafran </strong> </p>
+                            <p class="precio"> botella $0.99 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Sazonador mix </strong> </p>
+                            <p class="precio"> botella $2.50 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> LemonPepper </strong> </p>
+                            <p class="precio"> botella $10.50 </p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="categoria"> Extras </p>
+                        <img src="img/extras.jpeg" alt="">
+                        <div class="producto">
+                            <p class="nombre"> <strong> Huevos </strong> </p>
+                            <p class="precio"> cubeta $3.90 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Arroz </strong> </p>
+                            <p class="precio"> arroba $16 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Azúcar </strong> </p>
+                            <p class="precio"> lb $0.55 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Papa </strong> </p>
+                            <p class="precio"> lb $1.10 </p>
+                        </div>
+                        <div class="producto">
+                            <p class="nombre"> <strong> Carbón </strong> </p>
+                            <p class="precio"> funda $1 </p>
+                        </div>
+                    </article>
         
-            <div class="producto"> <strong>Carne Fileteada: </strong>
-                <p>$4.00</p> 
-            </div>
-            <div class="producto"> <strong> Pulpa de carne: </strong>
-                <p>lb $3.50</p>
-            </div>
-            <div class="producto"> <strong> Chuleta de res: </strong>
-                <p>lb $2.05</p>
-            </div>
-            <div class="producto"> <strong> Carne molida: </strong>
-                <p> lb $2.25</p>
-            </div>
-            <div class="producto"> <strong> Hueso de res: </strong>
-                <p> lb $1.20</p>
-            </div>
-            <div class="producto"> <strong> Espaldilla: </strong>
-                <p> lb $0.50</p>
+                </div>
             </div>
          </div>
-        
-         <!-- POLLO -->
-         <div class="categoria">
-            <h2> POLLO </h2>
-            <img src="img/Pollo.jpg" alt="Pollo">
-        
-            <div class="producto"> <strong> Pollo entero: </strong>
-                <p> lb $1.20</p>
-            </div>
-            <div class="producto"> <strong> Filete de pollo: </strong>
-                <p> lb $2.25</p>
-            </div>
-            <div class="producto"> <strong> Alitas: </strong>
-                <P> lb $1.70</P>
-            </div>
-         </div>
-        
-         <!-- CERDO -->
-          <div class="categoria">
-            <h2> Carnes de CERDO </h2>
-            <img src="img/Cerdo.jpg" alt="">
-        
-            <div class="producto"> <strong> Costilla de cerdo: </strong>
-                <p> lb $2.50</p>
-            </div>
-            <div class="producto"> <strong> Chuleta de lomo: </strong>
-                <p> lb $2.75</p>
-            </div>
-            <div class="producto"> <strong> Chuleta de pierna: </strong>
-                <p> lb $2.50</p>
-            </div>
-          </div>
-        
-         <!-- Embutidos --> 
-          <div class="categoria">
-            <h2> EMBUTIDOS </h2>
-            <img src="img/embutidos.jpeg" alt="">
-        
-            <div class="producto"> <strong> Parrilleros: </strong>
-                <p> Paquete $5</p>
-            </div>
-            <div class="producto"> <strong> Salchicha de res/pollo: </strong>
-                <p> lb $1.50</p>
-            </div>
-            <div class="producto"> <strong> Longaniza: </strong>
-                <p> lb $2.50</p>
-            </div>
-            <div class="producto"> <strong> Queso Manaba: </strong>
-                <p> lb $2.70</p>
-            </div>
-          </div>
-        
-         <!-- VIVERES -->
-        <div class="categoria">
-            <h2> EXTRAS </h2>
-            <img src="img/extras.jpeg" alt="">
-        
-            <div class="producto"> <strong> Huevos: </strong>
-                <p> Cubeta $3.90</p>
-            </div>
-            <div class="producto"> <strong> Arroz: </strong>
-                <p> arroba $16</p>
-            </div>
-            <div class="producto"> <strong> Azúcar:</strong>
-                <p> lb $0.55</p>
-            </div>
-            <div class="producto"> <strong> Camarón: </strong>
-                <p> lb $4.20</p>
-            </div>
-            <div class="producto"> <strong> Carbón: </strong>
-                <p> funda $1</p>
-            </div>
-        </div>        
+         </div> 
       </section>
       <!-- Fin de productos -->
 
       <!-- Galería -->
-       <section id="galeria">
-        <div>
+       <section class="galeria" id="galeria">
+        <div class="foto">
             <img src="img/CarneDeRes.jpg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="img/Pollo.jpg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="img/Cerdo.jpg" alt="">
         </div>
-        <div>
+        <div class="foto">
             <img src="img/embutidos.jpeg" alt="">
         </div>
-        <div>
+        <div class="foto">
+            <img src="img/condimentos.jpg" alt="">
+        </div>
+        <div class="foto">
             <img src="img/extras.jpeg" alt="">
         </div>
        </section>
+
+       <br>
+       <hr>
 
        <!-- Información de contacto -->
         <section class="ubicacion" id="ubicacion">
@@ -182,17 +253,45 @@
             </div>
         </section>
 
+        <hr>
+        <br>
+
         <!-- MAPA -->
 
-        <section>
+        <section class="mapa" >
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.77414709251!2d-78.54433852503541!3d-0.26961319972773234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTYnMTAuNiJTIDc4wrAzMiczMC40Ilc!5e0!3m2!1ses!2sec!4v1744124929098!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Formulario -->
+        <section class="seccion-formulario" id="seccion-formulario">
+            <div class="formulario">
+                <h1> Formulario de Usuario </h1>
+                <div class="requerimientos">
+                    <label for="nombres"> Nombres completos </label>
+                    <input type="text" id="nombres" name="nombres" required>
+                </div>
+
+                <div class="requerimientos">
+                    <label for="correo"> Correo electronico </label>
+                    <input type="email" id="correo" name="correo" required placeholder="ejemplo@gmail.com">
+                </div>
+
+                <div class="requerimientos">
+                    <label for="celular"> Numero de celular </label>
+                    <input type="number" id="celular" name="celular" required>
+                </div>
+
+                <div class="confirmar">
+                    <button type="submit"> Enviar </button>
+
+                </div>
+            </div>
         </section>
 
         <!-- Fin de Main -->
 </section>
 
 <!-- pie de página -->
-
 <footer>
     <div class="contenedor">
         <div class="copyright">

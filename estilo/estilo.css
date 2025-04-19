@@ -1,0 +1,346 @@
+/* -------- Estilos para Carnicería ------- */
+/* Manteniendo la misma estructura visual del invernadero pero adaptado */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ------- HEADER ------ */
+header {
+    width: 100%;
+    background: url(../img/LogoCarnicería.jpeg) #da3131; /* Cambiado a tonos rojos/marrones */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+header .menu {
+    text-align: right;
+}
+
+header .contenedor {
+    position: relative;
+    height: 700px;
+}
+
+header .menu a {
+    color: #000000;
+    background-color: #ff9c83; 
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+    background-color: #302a29;
+}
+
+header .texto {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    margin-top: -52px;
+}
+
+header .texto .nombre {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+header .texto h3 {
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* ------- MAIN ------- */
+.main {
+    background: #f5f5f5;
+    background-repeat: repeat;
+}
+
+/* Acerca de */
+.main .acerca-de .contenedor {
+    overflow: visible;
+    position: relative;
+    padding-top: 400px;
+}
+
+.main .acerca-de .foto {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0);
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acerca-de article {
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    float: left;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0,.5);
+    margin-top: 40px;
+}
+
+.main .acerca-de article h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #e71616; /* Rojo carnicero */
+}
+
+.main .acerca-de article p {
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #5a3a3a; /* Marrón */
+}
+
+/* Menú/Productos */
+.main .menu {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+.main .menu #seccion {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #e71616; 
+}
+
+.main .menu .contenedor-productos,
+.main .menu .contenedor-productos2 {
+    border: 1px solid #977c69; 
+    background: transparent;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.main .menu article {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.main .menu .categoria {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #5a3a3a;
+}
+
+.main .menu .producto {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 5px dotted #a98888;
+    overflow: hidden;
+}
+
+.main .menu .nombre {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+    color: #5a3a3a;
+}
+
+.main .menu .precio {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+    color: #7f5a5a;
+}
+
+.main .menu img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Galería */
+.main .galeria {
+    overflow: hidden;
+}
+
+.main .galeria .foto {
+    width: 33%;
+    float: left;
+}
+
+.main .galeria .foto img {
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+    height: 250px;
+    object-fit: cover;
+}
+
+.main .galeria .foto img:hover {
+    opacity: 1;
+    -webkit-transition: all .3 ease;
+    -o-transition: all .3 ease;
+    transition: all .3 ease;
+}
+
+/* Ubicación */
+.main .ubicacion {
+    background: #fff;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.main .ubicacion .titulo {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #af4848;
+}
+
+.main .ubicacion .direccion {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.main .ubicacion .horarios {
+    float: right;
+    width: 50%;
+    text-align: right;
+    overflow: hidden;
+}
+
+.main .ubicacion .direccion .calle {
+    margin-bottom: 15px;
+    color: #7f5a5a;
+    text-align: center;
+}
+
+.main .ubicacion .horarios h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7f5a5a;
+}
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/* Mapa */
+.main .mapa {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
+
+/* Formulario */
+.seccion-formulario {
+    background: #fff;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.formulario {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #a98888;
+}
+
+.formulario h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5a3a3a;
+}
+
+.requerimientos {
+    margin-bottom: 30px;
+}
+
+.requerimientos label {
+    display: block;
+    margin-bottom: 10px;
+    color: #7f5a5a;
+    font-size: 18px;
+}
+
+.requerimientos input,
+.requerimientos select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a98888;
+    font-size: 16px;
+}
+
+.confirmar {
+    text-align: center;
+}
+
+.confirmar button {
+    background: #c74c4c;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.confirmar button:hover {
+    background: #5a3a3a;
+}
+
+/* Footer */
+footer {
+    background: #c74c4c;
+}
+
+footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
