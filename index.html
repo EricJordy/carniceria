@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scalable="no", maximum-scale="1.0", minimum-scale="1.0">
-
+    
+    <!-- Nombre de la página -->
     <title>Distribuidora Sur - Carnicería</title>
     <link href=https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap rel="stylesheet">
     <!-- Me enlazo a css -->
     <link rel="stylesheet" href="estilo/estilo.css">
 </head>
 
+<!-- Inicio del cuerpo de la página -->
 <body>
+    <!-- Cabecera de la página -->
     <header>
         <div class="contenedor">
+            <!-- Contenedor pequeño para menús -->
             <nav class="menu">
-                <a href="#" id="btn-acerca-de"> Acerca de </a>
-                <a href="#" id="btn-menu"> Menú </a>
-                <a href="#" id="btn-galeria"> Galería </a>
-                <a href="#" id="btn-ubicacion"> Ubicacion </a>
+                <a href="#acerca-de" id="btn-acerca-de"> Acerca de </a>
+                <a href="#menu" id="btn-menu"> Menú </a>
+                <a href="#galeria" id="btn-galeria"> Galería </a>
+                <a href="#ubicacion" id="btn-ubicacion"> Ubicacion </a>
             </nav>
+            <!-- Contenedor para presentación de la página -->
             <div class="texto">
                 <h1 class="nombre"> Distribuidora sur - Carnicería</h1>
                 <h3> Productos frescos al mejor precio. </h3>
@@ -27,37 +32,46 @@
     </header>
 
 
-<!-- Seccion Main -->
+<!-- Inicio de Seccion Main -->
 <section class="main">
 
     <!-- Seccion Acerca de -->
      <section class="acerca-de" id="acerca-de">
-        <div class="contenedor">
+        <div class="contenedor-acerca-de">
+            <!-- Logo del Local -->
             <div class="foto">
-                <img src="img/logocarniceriapq.jpeg" alt="logo de carniceria" width="200" height="400">
+                <img src="img/LogoPrincipal.jpeg" alt="logo de carniceria" width="200" height="400">
             </div>
+            <!-- Contenedor del texto: Acerca de -->
             <article>
-                <h3> Acerca de </h3>
-                <p> En Distribuidora Sur llevamos más de 1 Década ofreciendo las mejores carnes del mercado. Cumplimos con los mejores estandares de calidad. </p>
+                <h3> Acerca de Nosotros </h3>
+                <p> En Distribuidora-Sur nos apaciona ser tu aliado en los momentos especiales, llevamos más de 1 Década ofreciendo
+                    las mejores carnes del mercado. Nos dedicamos a ofrecer carnes frescas, de alta calidad y a los mejores precios.</p>
+                <p> Más que una carnicería, somos un espacio donde contará con atención perzonalizada y un ambiente muy amigable, estamos listos
+                    para ayudarte en la selección de carnes para tus eventos familiares, nosotros te aseguraremos un sabor único en cada mordida. </p>    
             </article>
         </div>
     
      </section>
      <!-- Fin Acerca de -->
 
-     <!-- Categoría de Productos -->
-     <!-- CARNES -->
-      <section class="menu">
+     <!-- Catálogo de Productos -->
+      <section class="menu" id="menu">
         <div class="contenedor">
+            <!-- Título de la tabla -->
             <h2 id="seccion"> PRODUCTOS EN VENTA </h2>
             <div class="contenedor-productos">
                 <div class="contenedor-productos2">
+                    <!-- Tabla de carnes -->
                     <article>
+                        <!-- Categoría -->
                         <p class="categoria"> CARNES </p>
+                        <!-- Ingreso de imagen referencial -->
                         <img src="img/CarneDeRes.jpg" alt="">
+                        <!-- Detalles del producto -->
                         <div class="producto">
                             <p class="nombre"> <strong >Carne Fileteada: </strong></p> 
-                            <p class="precio">$4.00</p> 
+                            <p class="precio">lb $4.00</p> 
                         </div>
                         <div class="producto">
                              <p class="nombre"><strong> Pulpa de carne: </strong></p>
@@ -77,8 +91,9 @@
                         </div>
                     </article>
 
+                    <!-- Tabla de pollo -->
                     <article>
-                        <p class="categoria"> Pollo </p>
+                        <p class="categoria"> POLLO </p>
                         <img src="img/Pollo.jpg" alt="">
                         <div class="producto">
                             <p class="nombre"><strong> Pollo entero: </strong></p>
@@ -102,8 +117,9 @@
                        </div>
                     </article>
 
+                    <!-- Tabla de cerdo -->
                     <article>
-                        <p class="categoria"> Cerdo </p>
+                        <p class="categoria"> CERDO </p>
                         <img src="img/Cerdo.jpg" alt="">
                         <div class="producto">
                             <p class="nombre"> <strong> Costilla de cerdo </strong> </p>
@@ -127,8 +143,9 @@
                         </div>
                     </article>
 
+                    <!-- Tabla de embutidos -->
                     <article>
-                        <p class="categoria"> Embutidos </p>
+                        <p class="categoria"> EMBUTIDOS </p>
                         <img src="img/embutidos.jpeg" alt="">
                         <div class="producto">
                             <p class="nombre"> <strong> Parrilleros </strong> </p>
@@ -152,8 +169,9 @@
                         </div>
                     </article>
 
+                    <!-- Tabla de condimentos -->
                     <article>
-                        <p class="categoria"> Condimentos </p>
+                        <p class="categoria"> CONDIMENTOS </p>
                         <img src="img/condimentos.jpg" alt="">
                         <div class="producto">
                             <p class="nombre"> <strong> Ajo en polvo </strong> </p>
@@ -177,8 +195,9 @@
                         </div>
                     </article>
 
+                    <!-- Tabla de extras -->
                     <article>
-                        <p class="categoria"> Extras </p>
+                        <p class="categoria"> EXTRAS </p>
                         <img src="img/extras.jpeg" alt="">
                         <div class="producto">
                             <p class="nombre"> <strong> Huevos </strong> </p>
@@ -209,42 +228,44 @@
       </section>
       <!-- Fin de productos -->
 
-      <!-- Galería -->
+      <!-- Galería de fotos -->
        <section class="galeria" id="galeria">
         <div class="foto">
-            <img src="img/CarneDeRes.jpg" alt="">
+            <img src="img/PolloAsado.jpg" alt="">
         </div>
         <div class="foto">
-            <img src="img/Pollo.jpg" alt="">
+            <img src="img/Carne.jpg" alt="">
         </div>
         <div class="foto">
-            <img src="img/Cerdo.jpg" alt="">
+            <img src="img/PiernasJamon.jpg" alt="">
         </div>
         <div class="foto">
-            <img src="img/embutidos.jpeg" alt="">
+            <img src="img/Verduras.jpg" alt="">
+        </div>
+        <div class="foto">
+            <img src="img/cerdoasado.jpg" alt="">
         </div>
         <div class="foto">
             <img src="img/condimentos.jpg" alt="">
-        </div>
-        <div class="foto">
-            <img src="img/extras.jpeg" alt="">
         </div>
        </section>
 
        <br>
        <hr>
 
-       <!-- Información de contacto -->
+       <!-- Información de contacto/ubicación -->
         <section class="ubicacion" id="ubicacion">
             <div class="contacto">
                 <h3 class="titulo"> VISITANOS </h3>
-        
+
+                <!-- Contenedor para las calles y contacto -->
                 <div class="direccion">
                     <p class="calle"> Bonifacio Aguilar & Juan Aleman</p> <br>
                     <p class="telefono"> (+593) 9876543210 </p> <br>
                     <p class="correo"> carniceria@gmail.com </p>
                 </div>
-            
+                
+                <!-- Contenedor de horarios -->
                 <div class="horarios">
                     <h4> Horarios </h4>
                     <p class="entre-semana"> Lunes a Viernes <br> 07:00 - 20:00 </p>
@@ -257,7 +278,6 @@
         <br>
 
         <!-- MAPA -->
-
         <section class="mapa" >
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.77414709251!2d-78.54433852503541!3d-0.26961319972773234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTYnMTAuNiJTIDc4wrAzMiczMC40Ilc!5e0!3m2!1ses!2sec!4v1744124929098!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
@@ -265,30 +285,40 @@
         <!-- Formulario -->
         <section class="seccion-formulario" id="seccion-formulario">
             <div class="formulario">
-                <h1> Formulario de Usuario </h1>
+                <!-- Titulo del formulario -->
+                <h1> OPINIÓN DE USUARIO </h1>
+                <!-- Sección de nombres -->
                 <div class="requerimientos">
                     <label for="nombres"> Nombres completos </label>
                     <input type="text" id="nombres" name="nombres" required>
                 </div>
 
+                <!-- Sección de correo -->
                 <div class="requerimientos">
                     <label for="correo"> Correo electronico </label>
                     <input type="email" id="correo" name="correo" required placeholder="ejemplo@gmail.com">
                 </div>
 
+                <!-- Sección de celular -->
                 <div class="requerimientos">
                     <label for="celular"> Numero de celular </label>
                     <input type="number" id="celular" name="celular" required>
                 </div>
 
+                <!-- Sección de comentarios -->
+                <div class="requerimientos">
+                    <label for="comentarios"> Comentarios </label>
+                    <textarea name="comentarios" id="comentarios" rows="5" placeholder="Su opinión es importante, denos sus comentarios :) "></textarea>
+                </div>
+
+                <!-- Sección de botón enviar -->
                 <div class="confirmar">
                     <button type="submit"> Enviar </button>
-
                 </div>
             </div>
         </section>
 
-        <!-- Fin de Main -->
+<!-- Fin de Main -->
 </section>
 
 <!-- pie de página -->
