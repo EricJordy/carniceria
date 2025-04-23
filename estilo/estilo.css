@@ -113,7 +113,7 @@ header .texto h3 {
     position: relative;
     padding-top: 400px;
     padding-bottom: 50px;
-    background: url('../img/FondoMaderR.jpg');
+    background: url(../img/fondomadera3.jpg);
     background-repeat: repeat;
 }
 
@@ -132,7 +132,9 @@ header .texto h3 {
 /* Trabajamos en las dimensiones de la imagen */
 .main .acerca-de .foto img {
     vertical-align: top;
-    width: 100%;
+    height: 330px;
+    width: 1050px;
+    margin-left: 100px;
 }
 
 /* Trabajamos en el estilo del texto */
@@ -145,21 +147,23 @@ header .texto h3 {
     text-align: start;
     padding-left: 50px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0,.5);
-    margin-top: 40px;
+    margin-top: -30px;
 }
 
 /* Trabajamos en el titulo de acerca de */
 .main .acerca-de article h3 {
     font-size: 50px;
     font-weight: 300;
+    margin-top: -10px;
     margin-bottom: 40px;
     color: #e71616; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Trabajamos en el texto de contenido de Acerca de */
 .main .acerca-de article p {
     line-height: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     color: #5a3a3a; 
 }
 
@@ -170,6 +174,7 @@ header .texto h3 {
     margin-bottom: 50px;
     clear: both;
 }
+
 
 /* Estilos al titulo de la tabla de productos */
 .main .menu #seccion {
@@ -294,25 +299,60 @@ header .texto h3 {
     color: #ffffff;
     background: linear-gradient(50deg, #da3131, #a98888, #5a3a3a);
     border-radius: 20px;
-    margin: 35px 450px;
+    margin: 30px 450px;
 }
 
 /* Estilo por sección a la información */
 .main .ubicacion .direccion {
     float: left;
-    width: 50%;
+    width: 33%;
     text-align: center;
     color: #fff;
     font-size: 25px;
+    margin-top: 25px;
+}
+
+.main .ubicacion .whatsapp{
+    width: 33%
+    float: center;
+}
+
+.main .ubicacion .whatsapp img{
+    width: 100%;
+    height: 240px;
+    width: auto;
+    vertical-align: top;
+    margin-left: 105px;
+    margin-top: 15px;
+}
+
+.main .ubicacion .whatsapp a{
+    width: 33%;
+    float: center;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-weight: 30;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #44a716;
+    margin-left: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main .ubicacion .whatsapp a:hover {
+    text-decoration: underline;
+    transform: translateY(-5px) scale(1.1);
+    color: #000000;
 }
 
 /* Estilo al contenedor de horarios */
 .main .ubicacion .horarios {
     float: right;
-    width: 50%;
+    width: 33%;
     text-align: right;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: -240px;
 }
 
 /* Estilo al escrito de la dirección */
